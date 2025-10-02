@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+</head>
+<body>
+    <h1>Laboratorio06</h1>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="registro.html">Registro</a></li>
+        <li><a href="lenguajes.html">Lenguajes</a></li>
+    </ul>
+
+    <h2>Formulario de preferencias</h2>
+            <form action="#" method="post" enctype="multipart/form-data">
+        <label for="photo">Foto de perfil</label>
+        <input id="photo" name="photo" type="file" accept="image/*">
+
+
+        <fieldset>
+        <legend>¿Qué lenguajes conoces?</legend>
+        <label><input type="checkbox" name="languages" value="HTML"> HTML</label>
+        <label><input type="checkbox" name="languages" value="CSS"> CSS</label>
+        <label><input type="checkbox" name="languages" value="JavaScript"> JavaScript</label>
+        <label><input type="checkbox" name="languages" value="Python"> Python</label>
+        <label><input type="checkbox" name="languages" value="Java"> Java</label>
+        </fieldset>
+
+
+        <label for="hours">¿Cuántas horas de programación estudias al día?</label>
+        <input id="hours" name="hours" type="number" min="0" max="24" step="0.1">
+
+
+        <div>
+        <button type="submit">Guardar</button>
+        </div>
+        </form> 
+
+</body>
+</html>
